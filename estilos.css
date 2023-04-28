@@ -377,12 +377,18 @@ section {
     font-size: 9px;
     text-align: center;
   }
+  .texto-portada {
+    position: absolute;
+    top: 130px;
+    left: 33%;
+  }
+
   .texto-portada h1 {
-    font-size: 30px;
+    font-size: 22px;
     margin-left: 18px;
   }
   .texto-portada p {
-    font-size: 30px;
+    font-size: 15px;
     margin-left: 18px;
   }
   .mayorista-container {

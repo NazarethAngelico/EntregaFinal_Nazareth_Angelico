@@ -19,8 +19,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Crimson+Text:ital@1&family=Montserrat:ital,wght@1,100&family=Raleway:wght@300&family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="estilos.css" />
     <link rel="icon" href="images/logo1.png" />
@@ -29,30 +29,49 @@
   </head>
 
   <body>
-    <header>
-      <div class="logo">
-        <img src="images/logo1.png" alt="" />
-        <h2>CALI ACCESORIOS</h2>
-      </div>
-      <nav class="navbar">
-          <a href="index.html">INICIO</a>
-          <a href="pages/productos.html">PRODUCTOS</a>
-          <a href="pages/informacion.html">INFORMACIÓN</a>
-          <a href="pages/contacto.html">CONTACTO</a>
-          <a href="pages/mayorista.html"> MAYORISTA</a>
-        </ul>
+    <header class="bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light container-xxl">
+        <a class="navbar-brand d-flex flex-row" href="#">
+          <img
+            src="/images/logo1.png"
+            width="40"
+            height="40"
+            class="d-inline-block align-top display-6"
+            alt=""
+          />
+          <span class="fs-3">CALI ACCESORIOS</span></a
+        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link mx-3 fs-4" href="index.html">INICIO</a>
+            </li>
+            <li class="nav-item mx-3 fs-4">
+              <a class="nav-link" href="pages/productos.html">PRODUCTOS</a>
+            </li>
+            <li class="nav-item mx-3 fs-4">
+              <a class="nav-link" href="pages/informacion.html">INFORMACIÓN</a>
+            </li>
+            <li class="nav-item mx-3 fs-4">
+              <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
+            </li>
+            <li class="nav-item mx-3 fs-4">
+              <a class="nav-link" href="pages/mayorista.html">MAYORISTA</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
+    
 
 
     <div class="contenedor">
       <div class="foto-portada"> 
-        <img src="images/accesorios.jpeg" width="1340px" height="600px" alt="" />
-      </div>
-
-      
-      
-    
+        <img src="images/accesorios.jpeg" class="img-fluid" alt="" />
+    </div>
 
    <div class="textos"> 
       <div class="texto-portada">
