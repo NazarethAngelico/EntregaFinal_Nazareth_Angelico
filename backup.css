@@ -178,6 +178,10 @@ header {
   width: 100%;
   height: auto;
 }
+.icon-container img:hover {
+  transform: scale(2);
+  transition: 2s;
+}
 
 .flex-row {
   display: flex;
@@ -262,7 +266,7 @@ section {
 .grid-container {
   display: grid;
   gap: 10px;
-  grid-template-rows: repeat(5);
+  grid-template-rows: repeat(8);
   grid-template-columns: repeat(4, 4fr);
   margin: 10px;
   margin-top: 50px;
