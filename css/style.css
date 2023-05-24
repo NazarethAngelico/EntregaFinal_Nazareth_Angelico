@@ -25,7 +25,7 @@ footer .contenedor-footer {
   justify-content: space-around;
   font-family: "Roboto", sans-serif;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   footer .contenedor-footer {
     width: 100%;
     flex-direction: column;
@@ -41,7 +41,7 @@ footer .sec-footer-container {
   gap: 8px;
   font-family: "Roboto", sans-serif;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   footer .sec-footer-container {
     width: 100%;
     font-size: 8px;
@@ -98,11 +98,16 @@ footer .icon-pagos img {
   font-size: 50px;
   font-family: "Raleway", sans-serif;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .portada .texto-portada {
     font-size: 22px;
     top: 27%;
     left: 33%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .portada .texto-portada {
+    top: 23%;
   }
 }
 .portada .img-fluid {
@@ -111,17 +116,27 @@ footer .icon-pagos img {
 .portada .texto-portada h1 {
   font-size: 60px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .portada .texto-portada h1 {
     font-size: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .portada .texto-portada h1 {
+    font-size: 20px;
   }
 }
 .portada .texto-portada p {
   font-size: 60px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .portada .texto-portada p {
     font-size: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .portada .texto-portada p {
+    font-size: 20px;
   }
 }
 
@@ -233,6 +248,11 @@ footer .icon-pagos img {
   text-align: center;
   margin-top: 30px;
 }
+@media screen and (max-width: 400px) {
+  .contacto .titulo-contacto h1 {
+    font-size: 20px;
+  }
+}
 .contacto .titulo-contacto h4 {
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -240,6 +260,11 @@ footer .icon-pagos img {
   margin-bottom: 10px;
   font-size: 23px;
   color: black;
+}
+@media screen and (max-width: 400px) {
+  .contacto .titulo-contacto h4 {
+    font-size: 15px;
+  }
 }
 .contacto .ubicacion-contac p {
   display: flex;
@@ -263,7 +288,7 @@ footer .icon-pagos img {
   margin: 10px;
   margin-top: 50px;
 }
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 2200px) {
   .grid-container {
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
@@ -275,7 +300,7 @@ footer .icon-pagos img {
     align-items: center;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .grid-container {
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
@@ -288,15 +313,16 @@ footer .icon-pagos img {
   align-items: center;
   border-color: black;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .grid-container .card {
     width: 100%;
   }
 }
 .grid-container .card img {
   width: 200px;
+  height: 250px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .grid-container .card img {
     width: 100%;
   }
@@ -318,6 +344,18 @@ footer .icon-pagos img {
   background-color: #fdebd0;
   box-shadow: 7px 13px 37px #626567;
 }
+@media screen and (max-width: 800px) {
+  .grid-container-info {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .grid-container-info {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 .grid-container-info .columna {
   font-family: "Roboto", sans-serif;
 }
@@ -336,7 +374,7 @@ footer .icon-pagos img {
   color: white;
   box-shadow: 7px 13px 37px #626567;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .formulario {
     width: 300px;
   }
@@ -365,7 +403,7 @@ footer .icon-pagos img {
   margin-top: 50px;
   font-family: "Roboto", sans-serif;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .mayorista-container {
     width: 100%;
   }
@@ -375,7 +413,7 @@ footer .icon-pagos img {
   margin-left: 40px;
   margin-bottom: 15px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .mayorista-container .may {
     margin-left: 10px;
   }
